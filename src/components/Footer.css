@@ -87,7 +87,7 @@
     margin-bottom: 32px;
 }
 
-.footer-input::placeholder {
+.footer-input::placeHolder {
     color:#b1b1b1;
     text-align: center;
 }

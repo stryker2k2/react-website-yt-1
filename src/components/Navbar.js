@@ -12,7 +12,7 @@ function Navbar() {
 
     const showButton = () => 
     {
-        if (window.innerWidth <= 960)
+        if (window.innerWidth <= 1090)
         {   setButton(false);   }
         else
         {   setButton(true);    }
@@ -29,7 +29,8 @@ function Navbar() {
             <nav className = 'navbar'>
                 <div className = 'navbar-container'>
                     <Link to = '/' className = 'navbar-logo' onClick={closeMobileMenu}>
-                        TRVL <i className = 'fab fa-typo3'/>
+                        {/* TRVL <i className = 'fab fa-typo3'/> */}
+                        STRYKERSOFT<img className = 'navbar-logo-img' src = {require('../logos/s-icon-ribbon-solid-white-32x32.png').default}/>
                     </Link>
                     <div className = 'menu-icon' onClick={handleClick}>
                         <i className = {click ? 'fas fa-times' : 'fas fa-bars'}/>
