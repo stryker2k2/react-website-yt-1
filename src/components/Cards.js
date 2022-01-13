@@ -37,7 +37,7 @@ function Cards() {
                         src = {require('../images/img-8.jpg').default}
                         text = "Ride through the Sahara Desert on a guided camel tour"
                         label = "Adrenaline"
-                        path = "/sign-up"
+                        path = "/about"
                         />
                     </ul>
                 </div>
