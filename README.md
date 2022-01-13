@@ -8,4 +8,4 @@ I am following along with a YouTube Tutorial Series that can be found at [React 
 
 ### Development Environment
 
-Using Ubuntu 18.04 with Visual Studio Code running and `npm` for real-time webpage updates.
+Using Ubuntu 18.04 with Visual Studio Code running and `npm start` for real-time webpage updates.

@@ -30,7 +30,7 @@ function Navbar() {
                 <div className = 'navbar-container'>
                     <Link to = '/' className = 'navbar-logo' onClick={closeMobileMenu}>
                         {/* TRVL <i className = 'fab fa-typo3'/> */}
-                        STRYKERSOFT<img className = 'navbar-logo-img' src = {require('../logos/s-icon-ribbon-solid-white-32x32.png').default}/>
+                        STRYKERSOFT<img className = 'navbar-logo-img' alt = "navbar-logo" src = {require('../logos/s-icon-ribbon-solid-white-32x32.png').default}/>
                     </Link>
                     <div className = 'menu-icon' onClick={handleClick}>
                         <i className = {click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -52,12 +52,12 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className = 'nav-item'>
-                            <Link to = '/signup' className = 'nav-links-mobile' onClick = {closeMobileMenu}>
-                                Sign Up
+                            <Link to = '/about' className = 'nav-links-mobile' onClick = {closeMobileMenu}>
+                                About
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                    {button && <Button buttonStyle='btn--outline' linkTo = "/about">About</Button>}
                 </div>
             </nav> 
         </>
