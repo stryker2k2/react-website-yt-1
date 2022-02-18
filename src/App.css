@@ -5,40 +5,39 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.services,
-.products,
-.about {
+.webpage {
   display: flex;
   height: 50vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
 .services {
   background-image: url('./images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
 .products {
   background-image: url('./images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
 .about {
   background-image: url('./images/img-3.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+}
+
+.minecraft {
+  background-image: url('./images/mc-parkour.png');
+}
+
+.cyber {
+  background-image: url('./images/img-1.jpg');
+}
+
+.underconstruction {
+  background-image: url('./images/under-contruction.png');
 }

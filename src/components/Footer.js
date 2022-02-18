@@ -6,84 +6,62 @@ import './Footer.css'
 function Footer() {
     return (
         <div className = "footer-container">
-            <section className = "footer-subscription">
-                <p className = "footer-subscription-heading">
-                    Join the Adventure Newsletter to receive our best vacation deals
-                </p>
-                <p classname = "footer-subscription-text">
-                    You can unsubscribe at anytime
-                </p>
-                <div className = "input-areas">
-                    <form>
-                        <input type = "email" name = "email" placeHolder = "Your Email"
-                            className = "footer-input"/>
-                        <Button buttonStyle = "btn--outline">SUBSCRIBE</Button>
-                    </form>
-                </div>
-            </section>
             <div className = "footer-links">
                 <div className = "footer-link-wrapper">
                     <div class='footer-link-items'>
                         <h2>About Us</h2>
-                            <Link to='/about'>How it works</Link>
-                            <Link to='/'>Testimonials</Link>
-                            <Link to='/'>Careers</Link>
-                            <Link to='/'>Investors</Link>
+                            <Link to='/about'>Strykersoft</Link>
+                            <Link to='/'>Resume</Link>
+                            <Link to='/'>Join the Team</Link>
                             <Link to='/'>Terms of Service</Link>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Contact Us</h2>
-                            <Link to='/'>Contact</Link>
-                            <Link to='/'>Support</Link>
-                            <Link to='/'>Destinations</Link>
+                            <Link to='/'>Contact Info</Link>
+                            <Link to='/'>Minecraft Support</Link>
+                            <Link to='/'>Cyber Security Q&amp;A</Link>
                             <Link to='/'>Sponsorships</Link>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>Videos</h2>
-                            <Link to='/'>Submit Video</Link>
-                            <Link to='/'>Ambassadors</Link>
-                            <Link to='/'>Agency</Link>
-                            <Link to='/'>Influencer</Link>
+                        <h2>Links</h2>
+                            <Link to='/'>Black Lantern Security</Link>
+                            <Link to='/'>GitHub</Link>
+                            <Link to='/'>Ghidra</Link>
+                            <Link to='/'>Minecraft</Link>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Social Media</h2>
-                            <Link to='/'>Instagram</Link>
-                            <Link to='/'>Facebook</Link>
-                            <Link to='/'>Youtube</Link>
-                            <Link to='/'>Twitter</Link>
+                            <Link to='/youtube'>Youtube</Link>
+                            <Link to='/twitter'>Twitter</Link>
+                            <Link to='/linkedin'>LinkedIn</Link>
+                            <Link to='/paypal'>PayPal</Link>
                     </div>
                 </div>
             </div>
+            <small className = "website-rights">Created using ReactJS <i className = "fab fa-react"></i></small>
+            
             <section className = "social-media">
                 <div className = "social-media-wrap">
                     <div className = "footer-logo">
                         <Link className = "social-logo">
-                            TRVL <i className = "fab fa-typo3"/>
+                            <img className = 'navbar-logo-img' alt = "navbar-logo" src = {require('../logos/s-icon-ribbon-solid-white-32x32.png').default}/>
                         </Link>
                     </div>
-                    <small className = "website-rights"> TRVL © 2020</small>
+                    <small className = "website-rights">Strykersoft © 2022</small>                    
                     <div className = "social-icons">
                         <Link className = "social-icon-link facebook"
                             to = "/"
                             target = "_blank"
-                            aria-label = "Facebook"
-                        >
+                            aria-label = "Facebook">
                             <i className = "fab fa-facebook-f"></i>
-                        </Link>
-                        <Link className = "social-icon-link instagram"
-                            to = "/"
-                            target = "_blank"
-                        >
-                            <i className = "fab fa-instagram"></i>
                         </Link>
                         <Link
                             class='social-icon-link youtube'
                             to='/'
                             target='_blank'
-                            aria-label='Youtube'
-                            >
+                            aria-label='Youtube'>
                             <i class='fab fa-youtube' />
                         </Link>
                         <Link
@@ -98,8 +76,7 @@ function Footer() {
                             class='social-icon-link twitter'
                             to='/'
                             target='_blank'
-                            aria-label='LinkedIn'
-                            >
+                            aria-label='LinkedIn'>
                             <i class='fab fa-linkedin' />
                         </Link>
                     </div>
